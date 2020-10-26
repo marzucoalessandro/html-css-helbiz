@@ -50,5 +50,22 @@
   height: 500px;
   background-image: url(../img/938415.jpeg);
   background-size: cover;
+  position: relative;
+}
+.title h1{
+  margin-bottom: 30px;
+  font-size: 50px;
+}
 
+.title {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.shadow{
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.3);
 }
