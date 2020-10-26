@@ -36,6 +36,10 @@
   color: white;
 }
 
+.grey{
+  background-color: lightgrey;
+}
+
 .nav{
   height: 80px;
 }
@@ -198,6 +202,7 @@
 
 .col-dx{
   background-color: #41566a;
+  border-right: 10px solid white;
 }
 
 #quarta h4,p,a {
@@ -231,4 +236,9 @@
   height: 350px;
   background-image: url(../img/firenze.jpg);
   background-size: cover;
+  border-left: 10px solid white;
+}
+
+#quarta{
+  margin-bottom: 30px;
 }
