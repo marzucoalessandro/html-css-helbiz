@@ -8,6 +8,14 @@
   padding: 50px;
 }
 
+.pdt-250{
+  padding-top: 250px;
+}
+
+.pdt-300{
+  padding-top: 300px;
+}
+
 .pd-20{
   padding-bottom: 20px;
 }
@@ -46,8 +54,7 @@
   color: black;
   padding: 0 10px;
   font-size: 10px;
-
- }
+}
 
 .link_right ul li a{
    text-decoration: none;
@@ -113,4 +120,32 @@
 .fig1 a{
   text-decoration: none;
   color: blue;
+}
+
+.oldman{
+  height: 400px;
+  background-image: url(https://helbiz.com/_nuxt/img/index-banner.1f6fd0a.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.cell{
+  width: 200px;
+}
+
+#seconda h3{
+  font-size: 30px;
+  width: 200px;
+}
+
+.centrato{
+  text-align: center;
+}
+
+.blocco{
+  transform: translateY(-50%);
+}
+
+#seconda{
+  margin-top: 30px;
 }
