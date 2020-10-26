@@ -1,0 +1,54 @@
+.nav{
+  height: 80px;
+}
+
+.logo, .link_right, .link_centre{
+  font-family: sans-serif;
+  line-height: 80px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.logo{
+  font-size: 1.5rem;
+}
+ .link_centre li{
+   display: inline-block;
+}
+
+.link_right li{
+  display: inline-block;
+}
+
+.link_centre{
+  text-align: right;
+}
+
+.link_right{
+  padding-left: 20px;
+}
+
+.link_centre ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
+  font-size: 10px;
+
+ }
+
+.link_right ul li a{
+   text-decoration: none;
+   color: black;
+   padding: 0 10px;
+   font-size: 10px;
+}
+
+.icon{
+  border-right: 1px solid black;
+}
+
+.sfondo{
+  height: 500px;
+  background-image: url(../img/938415.jpeg);
+  background-size: cover;
+
+}
