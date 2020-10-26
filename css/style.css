@@ -1,3 +1,17 @@
+/* class utility */
+
+.bd{
+  border: 1px solid black;
+}
+
+.pd-50{
+  padding: 50px;
+}
+
+.pd-20{
+  padding-bottom: 20px;
+}
+
 .nav{
   height: 80px;
 }
@@ -52,9 +66,9 @@
   background-size: cover;
   position: relative;
 }
-.title h1{
+ .title h1, p {
   margin-bottom: 30px;
-  font-size: 50px;
+  text-align: center;
 }
 
 .title {
@@ -68,4 +82,29 @@
 .shadow{
   height: 500px;
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.title h1{
+  font-size: 50px;
+}
+
+#mezzi{
+  margin-top: 30px;
+  text-align: center;
+}
+
+#mezzi img{
+  height: 350px;
+}
+
+.fig1 h3{
+  font-size: 25px;
+}
+.small{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fig1 a{
+  text-decoration: none;
 }
