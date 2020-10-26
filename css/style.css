@@ -8,8 +8,12 @@
   padding: 50px;
 }
 
-.pd-100{
-  padding-top: 100px;
+.pd-60{
+  padding-top: 60px;
+}
+
+.pd-30{
+  padding: 30px;
 }
 
 .pdt-250{
@@ -164,15 +168,59 @@
 }
 
 .panchine{
-  height: 500px;
+  height: 400px;
   background-image: url(https://helbiz.com/_nuxt/img/scooter.f0a0397.jpg);
   background-size: cover;
 }
 
 #terza{
   color: white;
+  margin-bottom: 30px;
 }
 
 .mobility{
   font-size: 55px;
+  padding: 30px 30px 30px 30px;
+}
+
+.panchine a{
+  text-decoration: none;
+}
+
+.panchine p{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.col-dx{
+  background-color: #41566a;
+}
+
+#quarta h4,p,a {
+  color: white;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#quarta h4{
+  font-size: 30px;
+  font-weight: normal;
+}
+
+ #quarta p{
+   font-size: 20px;
+ }
+
+ #quarta a{
+   margin-right: 5px;
+   padding-bottom: 20px;
+}
+
+.tel img{
+  width: 200px;
+  padding-top: 20px;
 }
