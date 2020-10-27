@@ -173,6 +173,7 @@
 
 .cell{
   width: 200px;
+  margin-top: 160px;
 }
 
 #seconda h3{
@@ -185,17 +186,15 @@
   text-align: center;
 }
 
-.blocco{
-  transform: translateY(-50%);
-}
 
 .blocco p{
   color: black;
 }
 
-#seconda{
-  margin-top: 30px;
+.mgt15{
+  margin-top: 150px;
 }
+
 
 .panchine{
   height: 400px;
