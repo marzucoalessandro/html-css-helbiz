@@ -165,7 +165,7 @@
 }
 
 .oldman{
-  height: 500px;
+  height: 400px;
   background-image: url(https://helbiz.com/_nuxt/img/index-banner.1f6fd0a.jpg);
   background-size: cover;
   position: relative;
@@ -187,6 +187,10 @@
 
 .blocco{
   transform: translateY(-50%);
+}
+
+.blocco p{
+  color: black;
 }
 
 #seconda{
@@ -226,7 +230,7 @@
   border-right: 10px solid white;
 }
 
-#quarta h4,p,a {
+#quarta h4, p, a {
   color: white;
   text-decoration: none;
   padding-top: 20px;
