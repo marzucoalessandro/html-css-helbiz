@@ -16,6 +16,10 @@
   padding: 30px;
 }
 
+.mg-t{
+  margin-top: 30px;
+}
+
 .pdt-250{
   padding-top: 250px;
 }
@@ -32,6 +36,15 @@
   text-align: center;
 }
 
+.pdt{
+  padding-top: 20px;
+}
+
+.txt-st{
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
 .white{
   color: white;
 }
@@ -40,8 +53,16 @@
   background-color: lightgrey;
 }
 
+.black{
+  color: black;
+}
+
 .nav{
   height: 80px;
+}
+
+.bg-bl{
+  background-color: black;
 }
 
 .logo, .link_right, .link_centre{
@@ -221,7 +242,7 @@
    font-size: 20px;
  }
 
- #quarta a{
+#quarta a{
    margin-right: 5px;
    padding-bottom: 20px;
 }
@@ -241,4 +262,56 @@
 
 #quarta{
   margin-bottom: 30px;
+}
+
+.collage{
+  height: 260px;
+  background-image: url(../img/collage.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+  position: relative;
+}
+
+.advice{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.simbol{
+  color: black;
+  padding: 7px;
+}
+
+.txt-n{
+  list-style: none;
+  line-height: 30px;
+}
+
+.up-cas{
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.pd-lr a{
+  padding: 0 5px;
+}
+
+.terms{
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  height: 60px;
+}
+
+.apple{
+  width: 200px;
+}
+.google{
+  width: 190px;
 }
